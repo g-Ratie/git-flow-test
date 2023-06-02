@@ -1,3 +1,81 @@
-h1{
-    color: red;
-}
+/* base.css */
+
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* ヘッドラインのスタイル */
+  #headline {
+    background-color: #24ace8; /* スカイブルーの背景色 */
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px; /* 軽い丸みを帯びた背景 */
+    text-align: center; /* 中央揃え */
+  }
+  
+  #headline h1 {
+    margin: 0;
+    font-size: 36px; /* より大きなフォントサイズ */
+    text-transform: uppercase; /* テキストを大文字に変換 */
+  }
+  
+  /* リンクのスタイル */
+  .example li a {
+    color: #24ace8; /* スカイブルーのリンク色 */
+    text-decoration: none;
+    transition: color 0.3s; /* カラーの変化をスムーズにするトランジション */
+  }
+  
+  .example li a:hover {
+    text-decoration: underline;
+    color: #1e90ff; /* より濃いスカイブルーのホバー時の色 */
+  }
+  
+  /* サブブロックのスタイル */
+  .sub {
+    background-color: #1e1e1e; /* ダークグレーの背景色 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* 背景色の変化をスムーズにするトランジション */
+  }
+  
+  .sub:hover {
+    background-color: #333; /* より濃いダークグレーの背景色 */
+  }
+  
+  /* 例示ブロックのスタイル */
+  .example {
+    background-color: #333; /* ダークグレーの背景色 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* 背景色の変化をスムーズにするトランジション */
+  }
+  
+  .example:hover {
+    background-color: #444; /* より濃いダークグレーの背景色 */
+  }
+  
+  /* h2タグのスタイル */
+  .example h2 {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s; /* 背景色と文字色の変化をスムーズにするトランジション */
+  }
+  
+  .example:hover h2 {
+    background-color: #24ace8; /* スカイブルーの背景色 */
+    color: #000; /* 黒の文字色 */
+  }
+  
